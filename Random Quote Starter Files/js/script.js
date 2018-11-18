@@ -5,7 +5,7 @@ FSJS project 1 - A Random Quote Generator
 
 // Study guide for this project - https://drive.google.com/file/d/1s5grutGuQFwJcQP8bFwEI69Q8FCkGdDk/view?usp=sharing
 
-Var Quotes = [
+Var quotes = [
   {Quote: 'Quote', Source:'Jayden Smith',},
   {Quote: 'Quote', Source:'Jayden Smith',},
   {Quote: 'Quote', Source:'Jayden Smith',},
@@ -21,7 +21,7 @@ Var Quotes = [
     - Add at least one `year` and/or `citation` property to at least one
       quote object.
 ***/
-function getRandomQuote(array){math.floor(math.Random() *6); document.write(Quotes.Quote)}
+ function getRandomQuote(array){return quotes[Math.floor(Math.Random() *6)]};
 
 
 
@@ -45,7 +45,7 @@ function getRandomQuote(array){math.floor(math.Random() *6); document.write(Quot
    - set the `innerHTML` of the `quote-box` div to the HTML string.
 ***/
 
-
+var = printQuote(console.log(hi);
 
 
 /***
@@ -55,7 +55,7 @@ function getRandomQuote(array){math.floor(math.Random() *6); document.write(Quot
   comment.
 ***/
 
-document.getElementById('loadQuote').addEventListener("click", printQuote, false);
+document.getElementById('loadQuote').addEventListener("click", //printQuote, false);
 
 
 // Remember to delete the comments that came with this file, and replace them with your own code comments.
