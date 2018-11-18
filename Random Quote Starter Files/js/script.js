@@ -45,7 +45,7 @@ Var quotes = [
    - set the `innerHTML` of the `quote-box` div to the HTML string.
 ***/
 
-var = printQuote(console.log(hi);
+//var = printQuote(console.log(hi);
 
 
 /***
