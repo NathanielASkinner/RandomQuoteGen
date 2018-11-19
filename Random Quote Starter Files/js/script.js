@@ -11,7 +11,7 @@ var quotes = [
   {Quote: 'Quote', Source:'Jayden Smith',},
   {Quote: 'Quote', Source:'Jayden Smith',},
   {Quote: 'Quote', Source:'Jayden Smith',},
-  {Quote: 'Quote', Source:'Jayden Smith',};]
+  {Quote: 'Quote', Source:'Jayden Smith',}];
 /***
   Create the array of quote objects and name it `quotes`.
   Add at least five quote objects to the `quotes` array.
