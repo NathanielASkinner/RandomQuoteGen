@@ -32,7 +32,8 @@ var quotes = [
      `quotes` array.
 ***/
 
-function printQuote(getRandomQuote)
+function printQuote() {alert("A QUOTE!");}
+printQuote():
 
 
 /***
