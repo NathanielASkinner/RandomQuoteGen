@@ -33,7 +33,7 @@ var quotes = [
 ***/
 
 function printQuote() {alert("A QUOTE!");}
-printQuote():
+printQuote();
 
 
 /***
