@@ -32,7 +32,7 @@ var quotes = [
      `quotes` array.
 ***/
 
-
+function printQuote(getRandomQuote)
 
 
 /***
@@ -45,7 +45,6 @@ var quotes = [
    - set the `innerHTML` of the `quote-box` div to the HTML string.
 ***/
 
-//var = printQuote(console.log(hi);
 
 
 /***
