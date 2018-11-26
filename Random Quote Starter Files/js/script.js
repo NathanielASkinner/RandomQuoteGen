@@ -21,7 +21,7 @@ var quotes = [
     - Add at least one `year` and/or `citation` property to at least one
       quote object.
 ***/
- function getRandomQuote(array){return quotes[Math.floor(Math.Random() *6)]};
+ function getRandomQuote(array){return quotes[math.floor(math.Random() *6)]};
 
 
 
