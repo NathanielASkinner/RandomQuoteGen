@@ -31,10 +31,10 @@ var quotes = [
    - use the random number to `return` a random quote object from the
      `quotes` array.
 ***/
-
-function printQuote(getRandomQuote();) {
+var random = getRandomQuote();
+function printQuote(random) {
   var div = document.getElementById('loadQuote').addEventListener("click",printQuote, false);
-div.innerHTML = getRandomQuote();}
+div.innerHTML = random}
 
 
 
