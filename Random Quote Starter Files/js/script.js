@@ -32,8 +32,11 @@ var quotes = [
      `quotes` array.
 ***/
 
-function printQuote() {getRandomQuote();}
-printQuote();
+function printQuote(getRandomQuote();) {
+  var div = document.getElementById('loadQuote').addEventListener("click",printQuote, false);
+div.innerHTML = getRandomQuote();}
+
+
 
 
 /***
@@ -55,7 +58,7 @@ printQuote();
   comment.
 ***/
 
-document.getElementById('loadQuote').addEventListener("click",printQuote, false);
+
 
 
 // Remember to delete the comments that came with this file, and replace them with your own code comments.
