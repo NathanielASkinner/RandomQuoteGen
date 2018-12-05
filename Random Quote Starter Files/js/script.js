@@ -31,10 +31,17 @@ var quotes = [
    - use the random number to `return` a random quote object from the
      `quotes` array.
 ***/
-var random = getRandomQuote();
-function printQuote(random) {
-  var div = document.getElementById('loadQuote').addEventListener("click",printQuote, false);
-div.innerHTML = random}
+
+function printQuote() {
+// defining variable random -> Asigning getRandomQuote to var random
+ var random = getRandomQuote();
+ // defining variable div
+  var div = "<p class = quote>" + random.quote + "</p> <p class = source>" + random.source + "</p>"
+document.getElementById('quote-box').innerHTML = div}
+
+
+}
+
 
 
 
@@ -50,7 +57,7 @@ div.innerHTML = random}
 ***/
 
 
-
+document.getElementById('loadQuote').addEventListener("click",printQuote, false);
 /***
   When the "Show another quote" button is clicked, the event listener
   below will be triggered, and it will call, or "invoke", the `printQuote`
