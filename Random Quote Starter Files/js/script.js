@@ -6,12 +6,12 @@ FSJS project 1 - A Random Quote Generator
 // Study guide for this project - https://drive.google.com/file/d/1s5grutGuQFwJcQP8bFwEI69Q8FCkGdDk/view?usp=sharing
 
 var quotes = [
-  {quote: 'Quote', source:'Jayden Smith',},
-  {quote: 'Quote', source:'Jayden Smith',},
-  {quote: 'Quote', source:'Jayden Smith',},
-  {quote: 'Quote', source:'Jayden Smith',},
-  {quote: 'Quote', source:'Jayden Smith',},
-  {quote: 'Quote', source:'Jayden Smith',}];
+  {quote: "How can mirrors be real if our eyes aren't real?", source:'Jayden Smith',},
+  {quote: "Most trees are blue.", source:'Jayden Smith',},
+  {quote: "If Newborn babies could speak they would be the most intelligent beings on Planet Earth", source:'Jayden Smith',},
+  {quote: "If a cupcake falls from a tree how far will it be away from down?", source:'Jayden Smith',},
+  {quote: "I will now explain to you how Vaccuum cleaners work.", source:'Jayden Smith',},
+  {quote: "What is the definition of light?", source:'Jayden Smith',}];
 /***
   Create the array of quote objects and name it `quotes`.
   Add at least five quote objects to the `quotes` array.
